@@ -30,9 +30,10 @@ metadata:
   annotations:
     backstage.io/source-template: template:default/springboot-template
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
-    nexus-repository-manager/config.title: Latest Images
-    nexus-repository-manager/docker.image-name: docker-test
-    nexus-repository-manager/docker.image-tag: latest
+    # nexus-repository-manager/config.title: Latest Images
+    # nexus-repository-manager/docker.image-name: docker-test
+    # nexus-repository-manager/docker.image-tag: latest
+    nexus-repository-manager/repository: maven-snapshots
 spec:
   type: service
   lifecycle: experimental
