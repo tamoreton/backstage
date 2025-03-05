@@ -13,9 +13,9 @@ metadata:
       icon: github
   annotations:
     nexus-repository-manager/repository: maven-snapshots
-    nexus-repository-manager/format: maven2
-    nexus-repository-manager/group: uk.mod.d2s
-    nexus-repository-manager/name: openshift-service
+    # nexus-repository-manager/format: maven2
+    # nexus-repository-manager/group: uk.mod.d2s
+    # nexus-repository-manager/name: openshift-service
     # nexus-repository-manager/version: 12.1.3-20241008.113145-1
 spec:
   type: service
